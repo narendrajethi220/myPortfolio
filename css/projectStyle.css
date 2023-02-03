@@ -4,19 +4,24 @@ body {
 .hero-title {
   padding-top: 5rem;
 }
-.list ul {
+.project-list {
+  list-style-type: none;
   /* border: 2px solid black; */
+  text-align: center;
+  padding: 0.1rem;
+}
+.project-list li {
+  /* border: 2px solid black; */
+  padding: 0.5rem;
+  /* margin: 1rem; */
   /* text-align: center; */
+}
+.container-project {
+  /* border: 2px solid black; */
   padding: 0.5rem;
 }
-.list li {
-  /* border: 2px solid black; */
-  padding: 0.7rem;
-  margin: 1rem;
-  /* text-align: center; */
-}
 
-.list a {
+.container-project a {
   /* border: 2px solid black; */
   background: var(--color-primary);
   padding: 0.5rem;
@@ -27,6 +32,6 @@ body {
   border-radius: 0.5rem;
   margin: 0.5rem;
 }
-.list a:hover {
+.project-list a:hover {
   background: var(--color-secondary);
 }

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
 
 :root {
-  --color-bg: rgb(209 213 219);
+  --color-sectionBg: rgba(240, 232, 232, 0.759);
   --color-primary: #3b82f6;
   --color-secondary: #0d9488;
   --color-tertiary: #0ea5e9;
@@ -9,7 +9,7 @@
 
 body {
   font-family: "Orbitron", sans-serif;
-  background: var(--color-bg);
+  background: white;
   margin: 0;
 }
 /* Container */
@@ -80,9 +80,10 @@ hr {
   /* text-align: center; */
   margin: 1rem;
   padding: auto;
-  background: white;
+  background: var(--color-sectionBg);
   border-radius: 1rem;
 }
+
 .section .hero-skill {
   font-weight: bold;
   color: var(--color-primary);
@@ -113,11 +114,12 @@ hr {
 /*blogs*/
 .blogs {
   margin: 1rem;
-  background: white;
   border-radius: 1rem;
   margin-bottom: 2rem;
+  background: var(--color-sectionBg);
   /* padding: 1rem; */
 }
+
 .blogs p {
   line-height: 1.5rem;
 }
